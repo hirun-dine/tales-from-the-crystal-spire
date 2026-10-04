@@ -46,7 +46,7 @@ body {
   --cd-border-color: rgba(0, 0, 0, 0.125);
   --cd-border-width: 1px;
   --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-radius: 0rem;
 
   /* ============================================================= */
   /* Navbar
@@ -451,10 +451,10 @@ a:active {
 
 .card {
   background-color: var(--cd-card-background-color) !important;
-  border-width: var(--cd-card-border-width) !important;
+  border-width: var(--cd-card-border-width);
   border-style: var(--cd-card-border-style) !important;
   border-color: var(--cd-card-border-color) !important;
-  border-radius: var(--cd-border-radius) !important;
+  border-radius: var(--cd-border-radius);
 }
 
 .card-header {
