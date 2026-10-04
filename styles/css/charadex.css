@@ -230,6 +230,8 @@ body {
   font-family: var(--cd-body-font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 11pt;
+  letter-spacing: 0.2px;
 
   /* Global Background */
   background-color: var(--cd-body-background-color);
