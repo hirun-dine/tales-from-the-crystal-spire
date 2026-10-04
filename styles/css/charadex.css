@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
+  --cd-primary-color: teal;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
@@ -27,17 +27,17 @@ body {
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #f8f8f8;
-  --cd-content-background-color: #ffffff;
-  --cd-faded-background-color: #f8f8f8;
+  --cd-body-background-color: #ebe0d7;
+  --cd-content-background-color: #ebe0d7;
+  --cd-faded-background-color: #ddd1c8;
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/102000338_EAPtmoFPYvE6dXb.png?1750038990);
 
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color: #303030;
+  --cd-body-text-color: #5f5055;
   --cd-faded-text-color: #575757;
 
   /* ============================================================= */
@@ -233,7 +233,8 @@ body {
   background-color: var(--cd-body-background-color);
   background-image: var(--cd-body-background-image);
   background-position: center;
-  background-size: cover;
+  background-size: 200px;
+  background-repeat: repeat;
 
 }
 
