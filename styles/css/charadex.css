@@ -251,6 +251,8 @@ a,
 a:visited {
   color: var(--cd-link-text-color);
   transition: color .2s ease-in-out;
+  font-weight:600;
+  font-family: var(--cd-header-font-family);
 }
 
 a:hover,
