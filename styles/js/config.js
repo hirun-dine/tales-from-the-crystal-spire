@@ -42,10 +42,10 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    designTypes: ['All', 'Human', 'Dragon', 'Other'],
+    statuses: ['All', 'High Heralds', 'Bridia', 'Emlar', 'Laudia', 'Marcen', 'Scorros', 'Torduen'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
+    species: ['All', 'Human', 'Dragon', 'Other'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
@@ -310,7 +310,7 @@ charadex.page.masterlist = {
   sheetPage: charadex.sheet.pages.masterlist,
   sitePage: 'masterlist',
   dexSelector: 'charadex',
-  profileProperty: 'design',
+  profileProperty: 'npc name',
 
   sort: {
     toggle: true,
