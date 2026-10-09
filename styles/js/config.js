@@ -310,7 +310,7 @@ charadex.page.masterlist = {
   sheetPage: charadex.sheet.pages.masterlist,
   sitePage: 'masterlist',
   dexSelector: 'charadex',
-  profileProperty: 'npc name',
+  profileProperty: 'npcname',
 
   sort: {
     toggle: true,
