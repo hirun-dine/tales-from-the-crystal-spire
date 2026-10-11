@@ -44,9 +44,9 @@ charadex.sheet = {
 
     designTypes: ['All', 'Human', 'Dragon', 'Other'],
     statuses: ['All', 'High Heralds', 'Bridia', 'Emlar', 'Laudia', 'Marcen', 'Scorros', 'Torduen'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
+    rarity: ['All', 'Free', 'Restricted'],
     species: ['All', 'Human', 'Dragon', 'Other'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
+    itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
   }
