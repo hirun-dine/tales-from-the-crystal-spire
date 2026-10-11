@@ -46,7 +46,7 @@ charadex.sheet = {
     statuses: ['All', 'High Heralds', 'Bridia', 'Emlar', 'Laudia', 'Marcen', 'Scorros', 'Torduen'],
     rarity: ['All', 'Free', 'Restricted'],
     species: ['All', 'Human', 'Dragon', 'Other'],
-    itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness'],
+    itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness', 'Skymarks Item'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
   }
