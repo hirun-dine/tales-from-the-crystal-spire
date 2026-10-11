@@ -208,14 +208,6 @@
     <div class="col-12 p-2" id="charadex-profile">
       <div class="card">
 
-        <!-- Header -->
-        <div class="card-header px-md-5 px-4 py-4">
-          <div class="row no-gutters align-items-end m-n1">
-            <div class="col"><h3 class="mb-0 pr-2"><a class="profilelink profileid"></a></h3></div>
-            <div class="col-auto text-right raritybadge"></div>
-          </div>
-        </div>
-
         <!-- Main Info
         <!-- ----------------------------------------------------------- -->
         <div class="p-md-5 p-4">
@@ -227,41 +219,56 @@
             </div>
 
             <div class="col-md-8 p-2">
-              <div class="card bg-faded p-4 h-100">
-
-                <!-- Item -->
-                <div class="d-flex no-gutters mb-2">
-                  <b class="text-muted col-md-5 col-6">Item</b>
-                  <span class="item"></span>
+              <!-- START info card -->
+              <div class="card p-3 h-100">
+                
+                <div class="card border-0 rounded-0 bg-faded mx-n3 px-3 py-1 mb-2">
+                    <div class="row no-gutters align-items-end">
+                      <div class="col"><p class="mb-0 pr-2"><a class="text-uppercase profilelink profileid"></a></p></div>
+                      <div class="col-auto text-right raritybadge"></div>
+                    </div>
                 </div>
-  
+                
+                <div class="row no-gutters">
                 <!-- Item -->
-                <div class="d-flex no-gutters mb-2">
-                  <b class="text-muted col-md-5 col-6">Type</b>
+                <div class="col-sm mb-2"><div class="row no-gutters align-items-center">
+                  <b class="text-uppercase col-auto mr-3" style="color:teal;font-size:10pt">Type.</b>
                   <span class="type"></span>
-                </div>
+                </div></div>
   
                 <!-- Item -->
-                <div class="d-flex no-gutters mb-2">
-                  <b class="text-muted col-md-5 col-6">Rarity</b>
+                <div class="col-sm mb-2"><div class="row no-gutters align-items-center">
+                  <b class="text-uppercase col-auto mr-3" style="color:teal;font-size:10pt">Rarity.</b>
                   <span class="rarity"></span>
+                </div></div>
                 </div>
-  
-                <!-- Item -->
-                <div class="d-flex no-gutters">
-                  <b class="text-muted col-md-5 col-6">Price</b>
-                  <span>$<span class="price"></span></span>
-                </div>
-
-                <hr>
                 
                 <!-- Item -->
                 <div>
-                  <b class="text-muted">Description</b>
-                  <div class="px-4 cd-text-pre description"></div>
+                  <div class="cd-text-pre description font-italic"</div>
+                </div>
+                
+                <hr class="w-100">
+                
+                <!-- Item -->
+                <div>
+                  <div class="ml-n3 pl-3 py-1 mb-1 text-uppercase" style="color:teal;font-size:10pt;font-weight:bold;background: linear-gradient(90deg,#ddd1c8 0%, rgba(235, 224, 215, 1) 25%);">
+                      <i class="fa-solid fa-dice-d20" style="color: #ab9c92;"></i> Mechanics.
+                  </div>
+                  <div class="cd-text-pre mechanics"></div>
+                </div>
+                
+                <!-- Item -->
+                <div>
+                  <div class="ml-n3 pl-3 py-1 mt-2 mb-1 text-uppercase" style="color:teal;font-size:10pt;font-weight:bold;background: linear-gradient(90deg,#ddd1c8 0%, rgba(235, 224, 215, 1) 25%);">
+                      <i class="fa-solid fa-hand" style="color: #ab9c92;"></i> Obtained By.
+                  </div>
+                  <div class="cd-text-pre obtainedby"></div>
                 </div>
 
               </div>
+            </div>
+              <!-- END info card -->
             </div>
 
           </div>
