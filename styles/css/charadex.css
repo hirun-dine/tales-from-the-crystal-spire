@@ -18,7 +18,7 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color: teal;
-  --cd-primary-text-color: #fff;
+  --cd-primary-text-color: #ebe0d7;
 
   /* ============================================================= */
   /* Secondary Color
@@ -491,6 +491,8 @@ a:active {
   border-style: var(--cd-button-border-style) !important;
   border-width: var(--cd-button-border-width) !important;
   border-radius: var(--cd-button-border-radius) !important;
+  padding: .15rem .3rem !important;
+  font-size: 11pt !important;
 }
 
 .btn.btn-primary,
