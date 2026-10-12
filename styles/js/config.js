@@ -36,7 +36,7 @@ charadex.sheet = {
     items:         "items",
     traits:        "traits",
     prompts:       "prompts",
-    faq:           "faq",
+    skills:        "skills",
     staff:         "mods",
   },
 
@@ -254,14 +254,14 @@ charadex.page.staff = {
 };
 
 
-/* FAQ
+/* SKILL DIRECTORY
 /* --------------------------------------------------------------- */
-charadex.page.faq = {
+charadex.page.skills = {
 
-  sheetPage: charadex.sheet.pages.faq,
-  sitePage: 'faq',
+  sheetPage: charadex.sheet.pages.skills,
+  sitePage: 'skills',
   dexSelector: 'charadex',
-  profileProperty: 'id',
+  profileProperty: 'skill',
 
   sort: {
     toggle: false,
