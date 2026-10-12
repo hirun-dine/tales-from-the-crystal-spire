@@ -273,7 +273,7 @@ charadex.page.skills = {
   pagination: {
     toggle: true,
     bottomToggle: true,
-    amount: 12,
+    amount: 24,
   },
 
   filters: {
@@ -292,11 +292,11 @@ charadex.page.skills = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Question', 'Answer', 'Tags']
+    parameters: ['All', 'Skill', 'Description', 'Tags']
   },
 
   prevNext: {
-    toggle: false,
+    toggle: true,
   },
 
 }
