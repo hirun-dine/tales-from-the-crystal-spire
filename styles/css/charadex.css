@@ -640,9 +640,9 @@ img {
   text-transform:uppercase;
 }
 
-.codex-card:hover {
+.codex-card.codex-icon:hover {
   opacity:0.9;
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
 }
 
 
