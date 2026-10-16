@@ -238,7 +238,7 @@ charadex.page.codex = {
 
   fauxFolder: {
     toggle: true,
-    folderProperty: '',
+    folderProperty: 'Genre',
     parameters: charadex.sheet.options.genre,
   },
 
