@@ -224,9 +224,9 @@ charadex.page.codex = {
   },
 
   pagination: {
-    toggle: true,
-    bottomToggle: true,
-    amount: 12,
+    toggle: false,
+    bottomToggle: false,
+    amount: 120,
   },
 
   filters: {
