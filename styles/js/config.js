@@ -34,7 +34,7 @@ charadex.sheet = {
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
-    traits:        "traits",
+    abilities:     "abilities",
     prompts:       "prompts",
     skills:        "skills",
     staff:         "mods",
@@ -47,7 +47,7 @@ charadex.sheet = {
     rarity: ['All', 'Free', 'Restricted'],
     species: ['All', 'Human', 'Dragon', 'Other'],
     itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness', 'Skymarks Item'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    traitTypes: ['All', 'Draconic', 'Limited Trait', 'Riders Gift', 'Unique']
 
   }
 
@@ -109,14 +109,14 @@ charadex.page.items = {
 };
 
 
-/* Traits
+/* Abilities
 /* --------------------------------------------------------------- */
-charadex.page.traits = {
+charadex.page.abilities = {
 
-  sheetPage: charadex.sheet.pages.traits,
-  sitePage: 'traits',
+  sheetPage: charadex.sheet.pages.abilities,
+  sitePage: 'abilities',
   dexSelector: 'charadex',
-  profileProperty: 'trait',
+  profileProperty: 'ability',
 
   sort: {
     toggle: true,
@@ -148,7 +148,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Ability', 'Type']
   },
 
   prevNext: {
