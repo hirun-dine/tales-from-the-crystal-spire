@@ -49,7 +49,7 @@ charadex.sheet = {
     species: ['All', 'Human', 'Dragon', 'Other'],
     itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness', 'Skymarks Item'],
     traitTypes: ['All', 'Draconic', 'Limited Trait', 'Riders Gift', 'Unique'],
-    codexGenres: ['All', 'People', 'Places', 'Culture & History', 'Creatures', 'Plants', 'Objects', 'Books & Writings']
+    genre: ['All', 'People', 'Places', 'Culture and History', 'Creatures', 'Plants', 'Objects', 'Books and Writings']
 
   }
 
@@ -232,14 +232,14 @@ charadex.page.codex = {
   filters: {
     toggle: false,
     parameters: {
-      'Type': charadex.sheet.options.codexGenres,
+      'Type': charadex.sheet.options.genre,
     }
   },
 
   fauxFolder: {
     toggle: true,
     folderProperty: '',
-    parameters: charadex.sheet.options.codexGenres,
+    parameters: charadex.sheet.options.genre,
   },
 
   search: {
