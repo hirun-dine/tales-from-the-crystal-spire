@@ -237,7 +237,7 @@ charadex.page.codex = {
   },
 
   fauxFolder: {
-    toggle: false,
+    toggle: true,
     folderProperty: '',
     parameters: charadex.sheet.options.codexGenres,
   },
@@ -249,7 +249,7 @@ charadex.page.codex = {
   },
 
   prevNext: {
-    toggle: true,
+    toggle: false,
   },
 
 };
