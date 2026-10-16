@@ -37,6 +37,7 @@ charadex.sheet = {
     abilities:     "abilities",
     prompts:       "prompts",
     skills:        "skills",
+    codex:         "codex",
     staff:         "mods",
   },
 
@@ -47,7 +48,8 @@ charadex.sheet = {
     rarity: ['All', 'Free', 'Restricted'],
     species: ['All', 'Human', 'Dragon', 'Other'],
     itemTypes: ['All', 'Token of Divinity', 'Currency', 'Raw Material', 'Object', 'Poison', 'Illness', 'Skymarks Item'],
-    traitTypes: ['All', 'Draconic', 'Limited Trait', 'Riders Gift', 'Unique']
+    traitTypes: ['All', 'Draconic', 'Limited Trait', 'Riders Gift', 'Unique'],
+    codexGenres: ['All', 'People', 'Places', 'Culture & History', 'Creatures', 'Plants', 'Objects', 'Books & Writings']
 
   }
 
@@ -197,6 +199,53 @@ charadex.page.prompts = {
     toggle: true,
     filterToggle: false,
     parameters: ['Title']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Prompts
+/* --------------------------------------------------------------- */
+charadex.page.codex = {
+
+  sheetPage: charadex.sheet.pages.codex,
+  sitePage: 'codex',
+  dexSelector: 'charadex',
+  profileProperty: 'title',
+
+  sort: {
+    toggle: true,
+    key: "enddate",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'Type': charadex.sheet.options.codexGenres,
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: charadex.sheet.options.codexGenres,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Title','Genre']
   },
 
   prevNext: {
