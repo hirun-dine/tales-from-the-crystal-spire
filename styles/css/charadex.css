@@ -761,13 +761,14 @@ p:last-child {
 .badge-free {
   background-color: #ebe0d7;
   color: #4b4346;
-  border-radius:0.1rem !important;
-  text-transform:uppercase;
 }
 
 .badge-restricted {
   background-color: teal;
   color: #ebe0d7;
+}
+
+.badge {
   border-radius:0.1rem !important;
   text-transform:uppercase;
 }
